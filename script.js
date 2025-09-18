@@ -1,8 +1,6 @@
-// Password protection
-const PASSWORD = "nhothoang@1994"; // Mật khẩu để truy cập CV
+const PASSWORD = "nhothoang@1994";
 let isAuthenticated = false;
 
-// Password protection translations
 const passwordTranslations = {
   vi: {
     'password-title': '🔒 Nhập mật khẩu để xem CV',
