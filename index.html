@@ -126,6 +126,27 @@
         <div class="container">© <span id="year"></span> Nguyễn Nho Thoáng</div>
     </footer>
 
+    <!-- Password Protection Modal -->
+    <div id="password-modal" class="password-modal">
+        <div class="password-modal-content">
+            <div class="password-modal-header">
+                <h2 id="password-title">🔒 Nhập mật khẩu để xem CV</h2>
+                <p id="password-subtitle">Enter password to view CV</p>
+            </div>
+            <div class="password-modal-body">
+                <div class="password-input-group">
+                    <input type="password" id="password-input" placeholder="Nhập mật khẩu..." autocomplete="current-password">
+                    <button id="password-submit" class="password-submit-btn">
+                        <span id="submit-text">Xác nhận</span>
+                    </button>
+                </div>
+                <div id="password-error" class="password-error" style="display: none;">
+                    <span id="error-text">Mật khẩu không đúng!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

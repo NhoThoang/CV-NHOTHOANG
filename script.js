@@ -1,3 +1,25 @@
+// Password protection
+const PASSWORD = "nhothoang@1994"; // Mật khẩu để truy cập CV
+let isAuthenticated = false;
+
+// Password protection translations
+const passwordTranslations = {
+  vi: {
+    'password-title': '🔒 Nhập mật khẩu để xem CV',
+    'password-subtitle': 'Enter password to view CV',
+    'password-placeholder': 'Nhập mật khẩu...',
+    'submit-text': 'Xác nhận',
+    'error-text': 'Mật khẩu không đúng!'
+  },
+  en: {
+    'password-title': '🔒 Enter password to view CV',
+    'password-subtitle': 'Nhập mật khẩu để xem CV',
+    'password-placeholder': 'Enter password...',
+    'submit-text': 'Submit',
+    'error-text': 'Incorrect password!'
+  }
+};
+
 // Language and theme data
 const translations = {
   vi: {
@@ -145,6 +167,15 @@ let currentLanguage = 'en';
 let currentTheme = 'dark';
 
 document.addEventListener('DOMContentLoaded', function onReady() {
+  // Check if user is already authenticated
+  const savedAuth = localStorage.getItem('cv_authenticated');
+  if (savedAuth === 'true') {
+    isAuthenticated = true;
+    showCVContent();
+  } else {
+    showPasswordModal();
+  }
+
   // Set current year
   var yearEl = document.getElementById('year');
   if (yearEl) {
@@ -164,6 +195,7 @@ document.addEventListener('DOMContentLoaded', function onReady() {
   
   // Set up event listeners
   setupEventListeners();
+  setupPasswordProtection();
 });
 
 function setupEventListeners() {
@@ -226,4 +258,114 @@ function applyTheme(theme) {
     themeIcon.textContent = theme === 'dark' ? '🌙' : '☀️';
   }
 }
+
+// Password protection functions
+function setupPasswordProtection() {
+  const passwordInput = document.getElementById('password-input');
+  const passwordSubmit = document.getElementById('password-submit');
+  const passwordError = document.getElementById('password-error');
+
+  if (passwordSubmit) {
+    passwordSubmit.addEventListener('click', handlePasswordSubmit);
+  }
+
+  if (passwordInput) {
+    passwordInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        handlePasswordSubmit();
+      }
+    });
+  }
+}
+
+function showPasswordModal() {
+  document.body.classList.add('password-protected');
+  const modal = document.getElementById('password-modal');
+  if (modal) {
+    modal.classList.remove('hidden');
+    // Focus on password input
+    const passwordInput = document.getElementById('password-input');
+    if (passwordInput) {
+      setTimeout(() => passwordInput.focus(), 100);
+    }
+  }
+  updatePasswordModalLanguage();
+}
+
+function hidePasswordModal() {
+  const modal = document.getElementById('password-modal');
+  if (modal) {
+    modal.classList.add('hidden');
+  }
+  document.body.classList.remove('password-protected');
+}
+
+function showCVContent() {
+  hidePasswordModal();
+  isAuthenticated = true;
+  localStorage.setItem('cv_authenticated', 'true');
+}
+
+function handlePasswordSubmit() {
+  const passwordInput = document.getElementById('password-input');
+  const passwordError = document.getElementById('password-error');
+  const passwordSubmit = document.getElementById('password-submit');
+  
+  if (!passwordInput || !passwordError || !passwordSubmit) return;
+
+  const enteredPassword = passwordInput.value.trim();
+  
+  // Disable submit button during processing
+  passwordSubmit.disabled = true;
+  passwordSubmit.innerHTML = '<span>Đang xác thực...</span>';
+
+  // Simulate a small delay for better UX
+  setTimeout(() => {
+    if (enteredPassword === PASSWORD) {
+      // Correct password
+      passwordError.style.display = 'none';
+      passwordInput.value = '';
+      showCVContent();
+    } else {
+      // Wrong password
+      passwordError.style.display = 'block';
+      passwordInput.value = '';
+      passwordInput.focus();
+      
+      // Shake animation
+      passwordError.style.animation = 'none';
+      setTimeout(() => {
+        passwordError.style.animation = 'errorShake 0.5s ease-in-out';
+      }, 10);
+    }
+    
+    // Re-enable submit button
+    passwordSubmit.disabled = false;
+    updatePasswordModalLanguage();
+  }, 500);
+}
+
+function updatePasswordModalLanguage() {
+  const langData = passwordTranslations[currentLanguage];
+  if (!langData) return;
+
+  // Update password modal text
+  Object.keys(langData).forEach(key => {
+    const element = document.getElementById(key);
+    if (element) {
+      if (key === 'password-placeholder') {
+        element.placeholder = langData[key];
+      } else {
+        element.textContent = langData[key];
+      }
+    }
+  });
+}
+
+// Override the existing applyLanguage function to include password modal
+const originalApplyLanguage = applyLanguage;
+applyLanguage = function(lang) {
+  originalApplyLanguage(lang);
+  updatePasswordModalLanguage();
+};
 
