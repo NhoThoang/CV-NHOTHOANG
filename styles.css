@@ -7,6 +7,16 @@
   --border: #232838;
 }
 
+/* Light theme variables */
+[data-theme="light"] {
+  --bg: #f8f9fa;
+  --panel: #ffffff;
+  --text: #2d3748;
+  --muted: #718096;
+  --accent: #3182ce;
+  --border: #e2e8f0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -66,6 +76,40 @@ body {
 .header-right {
   display: flex;
   justify-content: center;
+}
+
+.header-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+}
+
+.control-btn {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.control-btn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 140, 255, 0.3);
+}
+
+.control-btn:active {
+  transform: translateY(0);
 }
 
 .avatar {
