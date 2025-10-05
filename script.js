@@ -38,37 +38,37 @@ const translations = {
     'job-title': 'Kỹ sư Cloud Platform | Samsung SVMC (nay là Samsung SRV) | 2016 – 2022',
     'monitoring-title': 'Dịch vụ giám sát hệ thống (AWS & On-Premise)',
     'monitoring-list': [
-      'Triển khai và quản lý hệ thống giám sát toàn cầu bằng **Grafana** và **Prometheus**.',
-      'Xây dựng hệ thống cảnh báo tự động (Warning, Critical) tích hợp **Alarm & Auto-healing**.',
+      'Triển khai và quản lý hệ thống giám sát toàn cầu bằng <strong>Grafana</strong> và <strong>Prometheus</strong>.',
+      'Xây dựng hệ thống cảnh báo tự động (Warning, Critical) tích hợp <strong>Alarm & Auto-healing</strong>.',
       'Xử lý sự cố nhanh chóng, đảm bảo tính ổn định cho các dịch vụ quan trọng.',
-      'Thành thạo trong việc triển khai ứng dụng bằng **Docker, Kubernetes, Ansible, Terraform, Jenkins, GitLab** trên cả môi trường Cloud và On-Premise.'
+      'Thành thạo trong việc triển khai ứng dụng bằng <strong>Docker, Kubernetes, Ansible, Terraform, Jenkins, GitLab</strong> trên cả môi trường Cloud và On-Premise.'
     ],
     'automation-title': 'Tự động hóa kiểm thử (Selenium, Appium, Uiautomator2, AI-based)',
     'automation-list': [
-      'Phát triển và bảo trì script tự động cho các nền tảng **Samsung Developer** và **Tizen Developer**.',
-      'Xây dựng framework tự động kiểm thử ứng dụng di động (Appium, Uiautomator2, ADB) chạy sau Pull Request.',
+      'Phát triển và bảo trì script tự động cho các nền tảng <strong>Samsung Developer</strong> và <strong>Tizen Developer</strong>.',
+      'Xây dựng framework tự động kiểm thử ứng dụng di động (<strong>Appium</strong>, <strong>Uiautomator2</strong>, <strong>ADB</strong>) chạy sau Pull Request.',
       'Tự động chạy test case, thu thập kết quả và tạo báo cáo kiểm thử.'
     ],
     'sqe-title': 'Software Quality Engineering (SQE)',
     'sqe-list': [
       'Thực hiện kiểm thử phần mềm cho các sản phẩm Samsung trước khi phát hành.',
-      'Xây dựng framework kiểm thử tự động trên nhiều thiết bị với **Appium**, **Uiautomator2**, **STP**, **ACT**.'
+      'Xây dựng framework kiểm thử tự động trên nhiều thiết bị với <strong>Appium</strong>, <strong>Uiautomator2</strong>, <strong>STP</strong>, <strong>ACT</strong>.'
     ],
     'ai-title': 'Nghiên cứu và ứng dụng AI nội bộ',
     'ai-list': [
       'Nghiên cứu huấn luyện và tinh chỉnh mô hình AI để tăng hiệu quả tự động hóa.',
-      'Ứng dụng **RAG**, **MCP**, **LLM** hỗ trợ quy trình kiểm thử và truy xuất dữ liệu nội bộ.',
+      'Ứng dụng <strong>RAG</strong>, <strong>MCP</strong>, <strong>LLM</strong> hỗ trợ quy trình kiểm thử và truy xuất dữ liệu nội bộ.',
       'Xây dựng nguyên mẫu chatbot hỗ trợ tra cứu tài liệu kiểm thử nội bộ (triển khai fullstack backend + frontend).'
     ],
     
     'projects-title': '📂 Dự án cá nhân',
     'projects-list': [
       '<strong>AI Chatbot tra cứu tài liệu (RAG-based)</strong><br>Xây dựng chatbot nội bộ giúp nhân viên tra cứu tài liệu kỹ thuật và hỗ trợ khắc phục sự cố.',
-      '<strong>DevOps AI Agent (Tự động hóa AWS)</strong><br>Phát triển AI Agent có khả năng tương tác với **AWS (EC2, S3, ECR, IAM, v.v.)**, tự động kiểm tra môi trường và hỗ trợ triển khai CI/CD.',
-      '<strong>Testing AI Agent (Kiểm thử tự động trên điện thoại)</strong><br>Xây dựng agent hỗ trợ chạy test case tự động trên thiết bị Android thông qua **Appium** và **Uiautomator2**, tự động ghi log và tạo báo cáo kết quả.',
-      '<strong>Sales Chatbot</strong><br>Chatbot hỗ trợ tư vấn sản phẩm, trả lời câu hỏi khách hàng và gợi ý mua hàng — ứng dụng kiến trúc **LLM + RAG**.',
+      '<strong>DevOps AI Agent (Tự động hóa AWS)</strong><br>Phát triển AI Agent có khả năng tương tác với <strong>AWS (EC2, S3, ECR, IAM, v.v.)</strong>, tự động kiểm tra môi trường và hỗ trợ triển khai CI/CD.',
+      '<strong>Testing AI Agent (Kiểm thử tự động trên điện thoại)</strong><br>Xây dựng agent hỗ trợ chạy test case tự động trên thiết bị Android thông qua <strong>Appium</strong> và <strong>Uiautomator2</strong>, tự động ghi log và tạo báo cáo kết quả.',
+      '<strong>Sales Chatbot</strong><br>Chatbot hỗ trợ tư vấn sản phẩm, trả lời câu hỏi khách hàng và gợi ý mua hàng — ứng dụng kiến trúc <strong>LLM + RAG</strong>.',
       '<strong>Healthcare Chatbot</strong><br>Xây dựng chatbot cung cấp thông tin sức khỏe, tra cứu thuốc, và hỗ trợ đặt lịch khám, dựa trên dữ liệu y tế và mô hình LLM.',
-      'Các **dự án DevOps & Automation khác** được chia sẻ trên GitHub:<br>👉 <a href="https://github.com/NhoThoang" target="_blank" rel="noopener">https://github.com/NhoThoang</a>'
+      'Các <strong>dự án DevOps & Automation khác</strong> được chia sẻ trên GitHub:<br>👉 <a href="https://github.com/NhoThoang" target="_blank" rel="noopener">https://github.com/NhoThoang</a>'
     ],
     
     'education-title': '🎓 Học vấn',
