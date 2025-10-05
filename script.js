@@ -32,61 +32,68 @@ const translations = {
     
     // Sections
     'summary-title': '👨‍💻 Tóm tắt chuyên môn',
-    'summary-content': 'Kỹ sư Cơ điện tử với 7 năm kinh nghiệm trong lĩnh vực Cloud Platform và Software Quality Engineering tại Samsung. Thành thạo các công nghệ <strong>DevOps</strong> (AWS, Docker, Kubernetes, Terraform, CI/CD), có kinh nghiệm trong <strong>kiểm thử tự động</strong> (Selenium, Appium, Uiautomator2, tự động hóa dựa trên AI), và ứng dụng <strong>AI (LLMs, RAG)</strong> trong các quy trình thực tế. Khả năng thích ứng cao với công nghệ mới, đã chứng minh khả năng cung cấp giải pháp trong các dự án quy mô lớn, áp lực cao.',
+    'summary-content': 'Kỹ sư CNTT với 7 năm kinh nghiệm làm việc tại <strong>Samsung</strong> trong mảng <strong>Cloud Platform</strong> và <strong>Software Quality Engineering</strong>. Thành thạo các công nghệ <strong>DevOps</strong> (AWS, Docker, Kubernetes, Terraform, CI/CD), có kinh nghiệm về <strong>tự động hóa kiểm thử</strong> (Selenium, Appium, Uiautomator2, AI-based automation), và xây dựng <strong>AI Agent</strong> phục vụ tự động hóa và hỗ trợ công việc. Có khả năng phát triển <strong>backend (FastAPI, Flask)</strong> và <strong>frontend (React, HTML, CSS, JavaScript)</strong>. Linh hoạt trong việc học và ứng dụng công nghệ mới, có kinh nghiệm làm việc trong các dự án quy mô lớn và môi trường áp lực cao.',
     
     'experience-title': '💼 Kinh nghiệm làm việc',
-    'job-title': 'Kỹ sư Cloud Platform Samsung SVMC (nay là Samsung SRV) | 2016 – 2023',
-    'monitoring-title': 'Dịch vụ Giám sát (AWS & On-Premise)',
+    'job-title': 'Kỹ sư Cloud Platform | Samsung SVMC (nay là Samsung SRV) | 2016 – 2022',
+    'monitoring-title': 'Dịch vụ giám sát hệ thống (AWS & On-Premise)',
     'monitoring-list': [
-      'Triển khai và quản lý hệ thống giám sát toàn cầu với Grafana, Prometheus.',
-      'Phát triển hệ thống cảnh báo tự động (Warning, Critical) tích hợp với Alarm & Auto-healing.',
-      'Cung cấp giải pháp sự cố nhanh chóng cho các dịch vụ quan trọng.',
-      'Thực hành với Docker, Kubernetes, Ansible, Terraform, Jenkins, GitLab để triển khai ứng dụng trên cả môi trường Cloud & On-Premise.'
+      'Triển khai và quản lý hệ thống giám sát toàn cầu bằng **Grafana** và **Prometheus**.',
+      'Xây dựng hệ thống cảnh báo tự động (Warning, Critical) tích hợp **Alarm & Auto-healing**.',
+      'Xử lý sự cố nhanh chóng, đảm bảo tính ổn định cho các dịch vụ quan trọng.',
+      'Thành thạo trong việc triển khai ứng dụng bằng **Docker, Kubernetes, Ansible, Terraform, Jenkins, GitLab** trên cả môi trường Cloud và On-Premise.'
     ],
-    'automation-title': 'Kiểm thử Tự động (Selenium, Appium, Uiautomator2, Tự động hóa dựa trên AI)',
+    'automation-title': 'Tự động hóa kiểm thử (Selenium, Appium, Uiautomator2, AI-based)',
     'automation-list': [
-      'Xây dựng script kiểm thử tự động cho Samsung Developer và Tizen Developer.',
-      'Phát triển framework tự động hóa cho kiểm thử ứng dụng di động sau Pull Request sử dụng Appium, Uiautomator2, ADB.'
+      'Phát triển và bảo trì script tự động cho các nền tảng **Samsung Developer** và **Tizen Developer**.',
+      'Xây dựng framework tự động kiểm thử ứng dụng di động (Appium, Uiautomator2, ADB) chạy sau Pull Request.',
+      'Tự động chạy test case, thu thập kết quả và tạo báo cáo kiểm thử.'
     ],
-    'sqe-title': 'Kỹ thuật Chất lượng Phần mềm (SQE)',
+    'sqe-title': 'Software Quality Engineering (SQE)',
     'sqe-list': [
       'Thực hiện kiểm thử phần mềm cho các sản phẩm Samsung trước khi phát hành.',
-      'Xây dựng framework kiểm thử tự động chạy trên nhiều thiết bị (Appium, Uiautomator2, STP, ACT).'
+      'Xây dựng framework kiểm thử tự động trên nhiều thiết bị với **Appium**, **Uiautomator2**, **STP**, **ACT**.'
     ],
-    'ai-title': 'Nghiên cứu & Ứng dụng AI',
+    'ai-title': 'Nghiên cứu và ứng dụng AI nội bộ',
     'ai-list': [
-      'Huấn luyện và fine-tune các mô hình AI để nâng cao tự động hóa.',
-      'Ứng dụng RAG + MCP + LLM để hỗ trợ quy trình kiểm thử phần mềm.',
-      'Thành công demo chatbot hỗ trợ kiểm thử dựa trên AI, chuẩn bị triển khai fullstack (backend + frontend) lên server nội bộ.'
+      'Nghiên cứu huấn luyện và tinh chỉnh mô hình AI để tăng hiệu quả tự động hóa.',
+      'Ứng dụng **RAG**, **MCP**, **LLM** hỗ trợ quy trình kiểm thử và truy xuất dữ liệu nội bộ.',
+      'Xây dựng nguyên mẫu chatbot hỗ trợ tra cứu tài liệu kiểm thử nội bộ (triển khai fullstack backend + frontend).'
     ],
     
     'projects-title': '📂 Dự án cá nhân',
     'projects-list': [
-      'Phát triển <strong>chatbot AI (dựa trên RAG)</strong> để hỗ trợ nhân viên tra cứu tài liệu và khắc phục sự cố.',
-      'Các <strong>dự án DevOps & Tự động hóa</strong> bổ sung có sẵn trên GitHub.'
+      '<strong>AI Chatbot tra cứu tài liệu (RAG-based)</strong><br>Xây dựng chatbot nội bộ giúp nhân viên tra cứu tài liệu kỹ thuật và hỗ trợ khắc phục sự cố.',
+      '<strong>DevOps AI Agent (Tự động hóa AWS)</strong><br>Phát triển AI Agent có khả năng tương tác với **AWS (EC2, S3, ECR, IAM, v.v.)**, tự động kiểm tra môi trường và hỗ trợ triển khai CI/CD.',
+      '<strong>Testing AI Agent (Kiểm thử tự động trên điện thoại)</strong><br>Xây dựng agent hỗ trợ chạy test case tự động trên thiết bị Android thông qua **Appium** và **Uiautomator2**, tự động ghi log và tạo báo cáo kết quả.',
+      '<strong>Sales Chatbot</strong><br>Chatbot hỗ trợ tư vấn sản phẩm, trả lời câu hỏi khách hàng và gợi ý mua hàng — ứng dụng kiến trúc **LLM + RAG**.',
+      '<strong>Healthcare Chatbot</strong><br>Xây dựng chatbot cung cấp thông tin sức khỏe, tra cứu thuốc, và hỗ trợ đặt lịch khám, dựa trên dữ liệu y tế và mô hình LLM.',
+      'Các **dự án DevOps & Automation khác** được chia sẻ trên GitHub:<br>👉 <a href="https://github.com/NhoThoang" target="_blank" rel="noopener">https://github.com/NhoThoang</a>'
     ],
     
     'education-title': '🎓 Học vấn',
     'university': '<strong>Đại học Điện lực | 2010 – 2015</strong>',
     'education-list': [
-      'Chuyên ngành: Kỹ thuật Cơ điện tử',
-      'GPA: Khá'
+      'Chuyên ngành: Cơ điện tử',
+      'Xếp loại: Giỏi'
     ],
     
     'skills-title': '🛠 Kỹ năng',
     'skills-list': [
       '<strong>DevOps & Cloud:</strong> AWS, Kubernetes, Terraform, Ansible, Docker, Jenkins, GitLab',
-      '<strong>Kiểm thử Tự động:</strong> Selenium, Appium, Uiautomator2, TensorFlow, PyTorch',
-      '<strong>Lập trình:</strong> Python, Bash',
+      '<strong>Automation Testing:</strong> Selenium, Appium, Uiautomator2',
+      '<strong>Ngôn ngữ lập trình:</strong> Python',
+      '<strong>Backend:</strong> FastAPI, Flask',
+      '<strong>Frontend:</strong> React, HTML, CSS, JavaScript',
       '<strong>Cơ sở dữ liệu:</strong> MySQL, PostgreSQL, MongoDB',
-      '<strong>AI & ML:</strong> LLMs, RAG, Fine-tuning, Model Deployment'
+      '<strong>AI & Machine Learning:</strong> LLMs, RAG, Fine-tuning, Model Deployment'
     ],
     
     'objective-title': '🎯 Mục tiêu nghề nghiệp',
     'objective-list': [
-      'Làm việc trong môi trường chuyên nghiệp và đổi mới.',
-      'Đóng góp vào các dự án thực tế, tác động cao định hình sản phẩm công nghệ.',
-      'Đón nhận thử thách và phát triển mạnh mẽ dưới khối lượng công việc áp lực cao.'
+      'Làm việc trong môi trường chuyên nghiệp, sáng tạo và hiện đại.',
+      'Tham gia phát triển các dự án có tác động thực tế lớn.',
+      'Không ngừng học hỏi, chinh phục thử thách và nâng cao năng lực kỹ thuật cá nhân.'
     ]
   },
   en: {
@@ -101,38 +108,43 @@ const translations = {
     
     // Sections
     'summary-title': '👨‍💻 Professional Summary',
-    'summary-content': 'Mechatronics Engineer with 7 years of experience in Cloud Platform and Software Quality Engineering at Samsung. Proficient in <strong>DevOps technologies</strong> (AWS, Docker, Kubernetes, Terraform, CI/CD), experienced in <strong>automation testing</strong> (Selenium, Appium, Uiautomator2, AI-based automation), and applying <strong>AI (LLMs, RAG)</strong> in real-world workflows. Strong adaptability to new technologies, with a proven ability to deliver solutions in high-pressure, large-scale projects.',
+    'summary-content': 'IT Engineer with 7 years of experience in <strong>Cloud Platform</strong> and <strong>Software Quality Engineering</strong> at Samsung. Proficient in <strong>DevOps technologies</strong> (AWS, Docker, Kubernetes, Terraform, CI/CD), experienced in <strong>automation testing</strong> (Selenium, Appium, Uiautomator2, AI-based automation), and building <strong>AI Agents</strong> for automation and integration. Strong skills in <strong>backend (FastAPI, Flask)</strong> and <strong>frontend (React, HTML, CSS, JavaScript)</strong> development. Capable of adapting quickly to new technologies and delivering high-quality solutions in large-scale, high-pressure environments.',
     
     'experience-title': '💼 Work Experience',
-    'job-title': 'Cloud Platform Engineer Samsung SVMC (now Samsung SRV) | 2016 – 2023',
+    'job-title': 'Cloud Platform Engineer | Samsung SVMC (now Samsung SRV) | 2016 – 2022',
     'monitoring-title': 'Monitoring Service (AWS & On-Premise)',
     'monitoring-list': [
-      'Deployed and managed global monitoring systems with Grafana, Prometheus.',
-      'Developed automated alert systems (Warning, Critical) integrated with Alarm & Auto-healing.',
-      'Provided fast incident resolution for critical services.',
-      'Hands-on with Docker, Kubernetes, Ansible, Terraform, Jenkins, GitLab for deploying apps on both Cloud & On-Premise environments.'
+      'Deployed and managed global monitoring systems using <strong>Grafana</strong> and <strong>Prometheus</strong>.',
+      'Developed automated alert systems (Warning, Critical) integrated with <strong>Alarm & Auto-healing</strong> mechanisms.',
+      'Handled incident response for large-scale services to ensure high availability and stability.',
+      'Experienced with <strong>Docker, Kubernetes, Ansible, Terraform, Jenkins, GitLab</strong> for CI/CD and multi-environment deployments.'
     ],
     'automation-title': 'Automation Testing (Selenium, Appium, Uiautomator2, AI-based Automation)',
     'automation-list': [
-      'Built automated test scripts for Samsung Developer and Tizen Developer.',
-      'Developed automation frameworks for mobile app testing post-Pull Request using Appium, Uiautomator2, ADB.'
+      'Developed and maintained automated test scripts for <strong>Samsung Developer</strong> and <strong>Tizen Developer</strong> platforms.',
+      'Built automation frameworks for mobile app testing triggered after Pull Requests using <strong>Appium</strong>, <strong>Uiautomator2</strong>, and <strong>ADB</strong>.',
+      'Maintained test cases, generated automated reports, and improved test coverage.'
     ],
     'sqe-title': 'Software Quality Engineering (SQE)',
     'sqe-list': [
-      'Performed software testing for Samsung products before release.',
-      'Built automation test frameworks running across multiple devices (Appium, Uiautomator2, STP, ACT).'
+      'Conducted pre-release software validation for Samsung products.',
+      'Designed automation frameworks running across multiple devices using <strong>Appium</strong>, <strong>Uiautomator2</strong>, <strong>STP</strong>, <strong>ACT</strong>.'
     ],
-    'ai-title': 'AI Research & Application',
+    'ai-title': 'AI Research & Internal Applications',
     'ai-list': [
-      'Trained and fine-tuned AI models to enhance automation.',
-      'Applied RAG + MCP + LLM to support software testing workflows.',
-      'Successfully demoed an AI-powered chatbot for testing support, preparing fullstack deployment (backend + frontend) to internal servers.'
+      'Researched and fine-tuned AI models to improve automation workflows.',
+      'Experimented with <strong>RAG</strong>, <strong>MCP</strong>, and <strong>LLM</strong> to assist testing and data retrieval tasks.',
+      'Built an AI-powered chatbot prototype to support internal testing documentation lookup (fullstack deployment: backend + frontend).'
     ],
     
     'projects-title': '📂 Personal Projects',
     'projects-list': [
-      'Developed an <strong>AI chatbot (RAG-based)</strong> to assist employees in documentation lookup and troubleshooting.',
-      'Additional <strong>DevOps & Automation projects</strong> available on GitHub.'
+      '<strong>AI Chatbot (RAG-based)</strong><br>Developed a chatbot to assist employees in document lookup and troubleshooting through a RAG (Retrieval-Augmented Generation) pipeline.',
+      '<strong>DevOps AI Agent (AWS Automation)</strong><br>Built an AI agent capable of interacting with <strong>AWS services</strong> (EC2, S3, ECR, IAM, etc.), performing automated environment checks and CI/CD workflows.',
+      '<strong>Testing AI Agent (Mobile Automation)</strong><br>Developed an agent that runs automated test cases on Android devices using <strong>Appium</strong> and <strong>Uiautomator2</strong>, collects results, and generates test reports.',
+      '<strong>Sales Chatbot</strong><br>Designed a chatbot that assists in product recommendation, customer Q&A, and order-related interactions — built using LLM + RAG architecture.',
+      '<strong>Healthcare Chatbot</strong><br>Created a prototype chatbot that provides basic medical information, symptom lookup, and appointment booking suggestions using medical data with RAG.',
+      'Additional <strong>DevOps & Automation projects</strong> are available on GitHub:<br>👉 <a href="https://github.com/NhoThoang" target="_blank" rel="noopener">https://github.com/NhoThoang</a>'
     ],
     
     'education-title': '🎓 Education',
@@ -145,8 +157,10 @@ const translations = {
     'skills-title': '🛠 Skills',
     'skills-list': [
       '<strong>DevOps & Cloud:</strong> AWS, Kubernetes, Terraform, Ansible, Docker, Jenkins, GitLab',
-      '<strong>Automation Testing:</strong> Selenium, Appium, Uiautomator2, TensorFlow, PyTorch',
-      '<strong>Programming:</strong> Python, Bash',
+      '<strong>Automation Testing:</strong> Selenium, Appium, Uiautomator2',
+      '<strong>Programming:</strong> Python',
+      '<strong>Backend:</strong> FastAPI, Flask',
+      '<strong>Frontend:</strong> React, HTML, CSS, JavaScript',
       '<strong>Database:</strong> MySQL, PostgreSQL, MongoDB',
       '<strong>AI & ML:</strong> LLMs, RAG, Fine-tuning, Model Deployment'
     ],
@@ -154,8 +168,8 @@ const translations = {
     'objective-title': '🎯 Career Objective',
     'objective-list': [
       'To work in a professional and innovative environment.',
-      'To contribute to real-world, high-impact projects shaping technology products.',
-      'To embrace challenges and thrive under high-pressure workloads.'
+      'To contribute to real-world, high-impact projects shaping modern technology products.',
+      'To continuously grow as an engineer by building and integrating intelligent systems.'
     ]
   }
 };
