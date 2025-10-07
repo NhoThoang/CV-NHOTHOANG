@@ -60,6 +60,25 @@ const translations = {
       'Ứng dụng <strong>RAG</strong>, <strong>MCP</strong>, <strong>LLM</strong> hỗ trợ quy trình kiểm thử và truy xuất dữ liệu nội bộ.',
       'Xây dựng nguyên mẫu chatbot hỗ trợ tra cứu tài liệu kiểm thử nội bộ (triển khai fullstack backend + frontend).'
     ],
+    // Job 2022 - now (Vietnamese)
+    'job2-title': 'Kỹ sư Kiểm thử Phần mềm | Samsung SRV | 2022 – nay',
+    'job2-automation-title': 'Tự động hóa kiểm thử (Selenium, Appium, Uiautomator2, AI-based)',
+    'job2-automation-list': [
+      'Phát triển và bảo trì script tự động cho các nền tảng <strong>Samsung Developer</strong> và <strong>Tizen Developer</strong>.',
+      'Xây dựng framework tự động kiểm thử ứng dụng di động (<strong>Appium</strong>, <strong>Uiautomator2</strong>, <strong>ADB</strong>) chạy sau Pull Request.',
+      'Tự động chạy test case, thu thập kết quả và tạo báo cáo kiểm thử.'
+    ],
+    'job2-sqe-title': 'Software Quality Engineering (SQE)',
+    'job2-sqe-list': [
+      'Thực hiện kiểm thử phần mềm cho các sản phẩm Samsung trước khi phát hành.',
+      'Xây dựng framework kiểm thử tự động trên nhiều thiết bị với <strong>Appium</strong>, <strong>Uiautomator2</strong>, <strong>STP</strong>, <strong>ACT</strong>.'
+    ],
+    'job2-ai-title': 'Nghiên cứu và ứng dụng AI nội bộ',
+    'job2-ai-list': [
+      'Nghiên cứu huấn luyện và tinh chỉnh mô hình AI để tăng hiệu quả tự động hóa.',
+      'Ứng dụng <strong>RAG</strong>, <strong>MCP</strong>, <strong>LLM</strong> hỗ trợ quy trình kiểm thử và truy xuất dữ liệu nội bộ.',
+      'Xây dựng nguyên mẫu chatbot hỗ trợ tra cứu tài liệu kiểm thử nội bộ (triển khai fullstack backend + frontend).'
+    ],
     
     'projects-title': '📂 Dự án cá nhân',
     'projects-list': [
@@ -111,7 +130,7 @@ const translations = {
     'summary-content': 'IT Engineer with 7 years of experience in <strong>Cloud Platform</strong> and <strong>Software Quality Engineering</strong> at Samsung. Proficient in <strong>DevOps technologies</strong> (AWS, Docker, Kubernetes, Terraform, CI/CD), experienced in <strong>automation testing</strong> (Selenium, Appium, Uiautomator2, AI-based automation), and building <strong>AI Agents</strong> for automation and integration. Strong skills in <strong>backend (FastAPI, Flask)</strong> and <strong>frontend (React, HTML, CSS, JavaScript)</strong> development. Capable of adapting quickly to new technologies and delivering high-quality solutions in large-scale, high-pressure environments.',
     
     'experience-title': '💼 Work Experience',
-    'job-title': 'Cloud Platform Engineer | Samsung SVMC (now Samsung SRV) | 2016 – 2022',
+    'job-title': 'Cloud Platform Engineer | Samsung SVMC (now Samsung SRV) | 2017 – 2022',
     'monitoring-title': 'Monitoring Service (AWS & On-Premise)',
     'monitoring-list': [
       'Deployed and managed global monitoring systems using <strong>Grafana</strong> and <strong>Prometheus</strong>.',
@@ -135,6 +154,25 @@ const translations = {
       'Researched and fine-tuned AI models to improve automation workflows.',
       'Experimented with <strong>RAG</strong>, <strong>MCP</strong>, and <strong>LLM</strong> to assist testing and data retrieval tasks.',
       'Built an AI-powered chatbot prototype to support internal testing documentation lookup (fullstack deployment: backend + frontend).'
+    ],
+    // Job 2022 - now (English)
+    'job2-title': 'Software Test Engineer | Samsung SRV | 2022 – Present',
+    'job2-automation-title': 'Automation Testing (Selenium, Appium, Uiautomator2, AI-based)',
+    'job2-automation-list': [
+      'Developed and maintained automated test scripts for <strong>Samsung Developer</strong> and <strong>Tizen Developer</strong> platforms.',
+      'Built automation frameworks for mobile app testing triggered after Pull Requests using <strong>Appium</strong>, <strong>Uiautomator2</strong>, and <strong>ADB</strong>.',
+      'Automated test case execution, collected results and produced test reports.'
+    ],
+    'job2-sqe-title': 'Software Quality Engineering (SQE)',
+    'job2-sqe-list': [
+      'Performed pre-release software validation for Samsung products.',
+      'Designed automation frameworks running across multiple devices using <strong>Appium</strong>, <strong>Uiautomator2</strong>, <strong>STP</strong>, <strong>ACT</strong>.'
+    ],
+    'job2-ai-title': 'AI Research & Internal Applications',
+    'job2-ai-list': [
+      'Researched and fine-tuned AI models to improve automation workflows.',
+      'Applied <strong>RAG</strong>, <strong>MCP</strong>, and <strong>LLM</strong> techniques to support testing and internal data retrieval.',
+      'Built a prototype chatbot for internal testing documentation lookup (fullstack deployment: backend + frontend).'
     ],
     
     'projects-title': '📂 Personal Projects',
