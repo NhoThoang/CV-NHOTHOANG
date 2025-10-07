@@ -35,7 +35,7 @@ const translations = {
     'summary-content': 'Kỹ sư CNTT với 7 năm kinh nghiệm làm việc tại <strong>Samsung</strong> trong mảng <strong>Cloud Platform</strong> và <strong>Software Quality Engineering</strong>. Thành thạo các công nghệ <strong>DevOps</strong> (AWS, Docker, Kubernetes, Terraform, CI/CD), có kinh nghiệm về <strong>tự động hóa kiểm thử</strong> (Selenium, Appium, Uiautomator2, AI-based automation), và xây dựng <strong>AI Agent</strong> phục vụ tự động hóa và hỗ trợ công việc. Có khả năng phát triển <strong>backend (FastAPI, Flask)</strong> và <strong>frontend (React, HTML, CSS, JavaScript)</strong>. Linh hoạt trong việc học và ứng dụng công nghệ mới, có kinh nghiệm làm việc trong các dự án quy mô lớn và môi trường áp lực cao.',
     
     'experience-title': '💼 Kinh nghiệm làm việc',
-    'job-title': 'Kỹ sư Cloud Platform | Samsung SVMC (nay là Samsung SRV) | 2016 – 2022',
+    'job-title': 'Kỹ sư Cloud Platform | Samsung SVMC (nay là Samsung SRV) | 2017 – 2022',
     'monitoring-title': 'Dịch vụ giám sát hệ thống (AWS & On-Premise)',
     'monitoring-list': [
       'Triển khai và quản lý hệ thống giám sát toàn cầu bằng <strong>Grafana</strong> và <strong>Prometheus</strong>.',
